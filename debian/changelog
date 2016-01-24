@@ -1,0 +1,110 @@
+rename-me (0.0.6.4-1ubuntu1) wily; urgency=medium
+
+  * Upgraded to wily
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 24 Jan 2016 10:11:39 +0100
+
+rename-me (0.0.6.3-1ubuntu1) trusty; urgency=medium
+
+  * Updated to trusty
+
+ -- Lorenzo Carbonell <atareao@trusty>  Sat, 22 Feb 2014 09:05:19 +0100
+
+rename-me (0.0.6.2-1ubuntu1) quantal; urgency=low
+
+  * reorder buttons
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Fri, 16 Nov 2012 21:14:42 +0100
+
+rename-me (0.0.6.1-1ubuntu1) quantal; urgency=low
+
+  * Fixed a bug with polib
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Fri, 16 Nov 2012 20:55:21 +0100
+
+rename-me (0.0.6.0-1ubuntu1) quantal; urgency=low
+
+  * Ported to Python3
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Thu, 15 Nov 2012 21:33:01 +0100
+
+rename-me (0.0.5.0-1ubuntu1) precise; urgency=low
+
+  * Now you can select files from dialog
+  * You can start rename-me from Dash
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 15 Jul 2012 20:27:07 +0200
+
+rename-me (0.0.4.2-1ubuntu1) precise; urgency=low
+
+  * Updated spanish translation
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Fri, 29 Jun 2012 03:10:44 +0200
+
+rename-me (0.0.4.1-1ubuntu1) precise; urgency=low
+
+  * Added translations support
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Fri, 29 Jun 2012 02:49:57 +0200
+
+rename-me (0.0.4.0-1ubuntu1) precise; urgency=low
+
+  * Now you can save and delete patterns
+  * When apply a pattern, destination is copien in source
+  * Removed Cancel button
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Fri, 29 Jun 2012 02:35:55 +0200
+
+rename-me (0.0.3.9-1ubuntu1) precise; urgency=low
+
+  * Added format_number utility
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Wed, 27 Jun 2012 07:22:55 +0200
+
+rename-me (0.0.3.8-1ubuntu1) precise; urgency=low
+
+  * If exit window don't exit Nautilus
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Wed, 27 Jun 2012 07:06:42 +0200
+
+rename-me (0.0.3.7-1ubuntu1) precise; urgency=low
+
+  * Updated translations
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Wed, 27 Jun 2012 06:41:13 +0200
+
+rename-me (0.0.3.6-1ubuntu1) precise; urgency=low
+
+  * Fixed a bug with package
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Tue, 26 Jun 2012 23:29:57 +0200
+
+rename-me (0.0.3.4-1ubuntu1) precise; urgency=low
+
+  * Fixed a bug with selecting files
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Tue, 26 Jun 2012 22:05:55 +0200
+
+rename-me (0.0.3.3-1ubuntu1) precise; urgency=low
+
+  * Fixed a bug with package
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 24 Jun 2012 19:30:30 +0200
+
+rename-me (0.0.3.2-1ubuntu1) precise; urgency=low
+
+  * Fixed a bug with package
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 24 Jun 2012 19:11:11 +0200
+
+rename-me (0.0.3.1-1ubuntu1) precise; urgency=low
+
+  * Fixed a bug with package
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 24 Jun 2012 18:50:47 +0200
+
+rename-me (0.0.3.0-1ubuntu1) precise; urgency=low
+
+  * First release
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 22 Jan 2012 22:00:22 +0100

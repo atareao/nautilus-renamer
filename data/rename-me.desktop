@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=utf-8
+Name=rename-me
+Version=0.0.5.0
+Comment=A file renamer
+Comment[es]=Renombrador de archivos
+GenericName=rename-me
+Terminal=false
+Icon=edit-find-replace
+Type=Application
+Exec=python /usr/share/nautilus-python/extensions/rename-me.py
+Categories=GNOME;GTK;Application;Utils;
