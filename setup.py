@@ -8,7 +8,7 @@ from DistUtilsExtra.command import *
 from distutils import cmd
 from distutils.command.install_data import install_data as _install_data
 from distutils.command.build import build as _build
- 
+
 import msgfmt
 import os
 import glob
@@ -20,8 +20,8 @@ import ConfigParser
 import codecs
 
 DATA_FILES=[
-	('/usr/share/nautilus-python/extensions', ['src/rename-me.py']),
-	('/usr/share/applications', ['data/rename-me.desktop']),	
+	('/usr/share/nautilus-python/extensions', ['src/nautilus-renamer.py']),
+	('/usr/share/applications', ['data/nautilus-renamer.desktop']),
 	]
 
 MAIN_DIR = os.getcwd()
@@ -111,7 +111,7 @@ def update_translations():
 		print ejecuta(command)
 		edit_language_file(file)
 	f.close()
-	
+
 def edit_language_file(file):
 	po = polib.pofile(file)
 	lang = file.split('/')[-1:][0].split('.')[0]
@@ -173,11 +173,11 @@ def update_desktop_file():
 						print filepo
 						if not msgstr or msgstr == '':
 							msgstr = entry[1]
-							
+
 						print '%s[%s]=%s'%(entry[0][1:],ln,msgstr)
 						fileout.write('%s[%s] = %s\n'%(entry[0][1:],ln,msgstr))
 		fileout.close()
-	
+
 def remove_security_copies():
 	for file in glob.glob(os.path.join(LANGUAGES_DIR,'*.po~')):
 		os.remove(file)
@@ -188,7 +188,7 @@ def delete_it(file):
 			shutil.rmtree(file)
 		else:
 			os.remove(file)
-			
+
 def remove_files(dir,ext):
 	files = []
 	for file in glob.glob(os.path.join(dir,'*')):
@@ -219,7 +219,7 @@ def babilon():
 	print '############################################################'
 	print 'Updating template'
 	print '############################################################'
-	files_file = list_src()	
+	files_file = list_src()
 	command = 'xgettext --msgid-bugs-address=%s --language=Python --keyword=_ --keyword=N_ --output=%s --files-from=%s'%(AUTHOR_EMAIL,TEMPLATE,files_file)
 	print ejecuta(command)
 	delete_it(files_file)
@@ -240,17 +240,17 @@ def babilon():
 	print '############################################################'
 	print 'Removing security copies'
 	print '############################################################'
-	remove_security_copies()	
-		
-	
+	remove_security_copies()
+
+
 class clean_and_compile(cmd.Command):
 	description = 'Clean and compile languages'
 	def initialize_options(self):
 		pass
- 
+
 	def finalize_options(self):
 		pass
- 
+
 	def run(self):
 		remove_compiled_files(SRC_DIR)
 		babilon()
@@ -260,16 +260,16 @@ class translate(build_extra.build_extra):
 	def run(self):
 		build_extra.build_extra.run(self)
 		pass
-	
-	
+
+
 class build_trans(cmd.Command):
 	description = 'Compile .po files into .mo files'
 	def initialize_options(self):
 		pass
- 
+
 	def finalize_options(self):
 		pass
- 
+
 	def run(self):
 		po_dir = os.path.join(os.path.dirname(os.curdir), 'template1')
 		for path, names, filenames in os.walk(po_dir):
@@ -290,7 +290,7 @@ class build_trans(cmd.Command):
 						if src_mtime > dest_mtime:
 							print 'Compiling %s' % src
 							msgfmt.make(src, dest)
-							
+
 class build(build_extra.build_extra):
 	sub_commands = build_extra.build_extra.sub_commands + [('build_trans', None)]
 	def run(self):
@@ -302,8 +302,8 @@ class install_data(_install_data):
 			lang_dir = os.path.join('share', 'locale-langpack', lang, 'LC_MESSAGES')
 			lang_file = os.path.join('build', 'locale-langpack', lang, 'LC_MESSAGES', COMPILED_LANGUAGE_FILE)
 			self.data_files.append( (lang_dir, [lang_file]) )
-		_install_data.run(self)	
-		
+		_install_data.run(self)
+
 setup(name=APP,
 	version=VERSION,
 	author=AUTHOR,

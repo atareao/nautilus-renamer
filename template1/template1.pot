@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: lorenzo.carbonell.cerezo@gmail.com\n"
-"POT-Creation-Date: 2012-06-29 03:10+0200\n"
+"POT-Creation-Date: 2016-12-03 20:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,46 +17,58 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/atareao/Dropbox/tp/rename-me/src/rename-me.py:124
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:136
 msgid "The name of the file"
 msgstr ""
 
-#: /home/atareao/Dropbox/tp/rename-me/src/rename-me.py:125
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:138
 msgid "The extension of the file"
 msgstr ""
 
-#: /home/atareao/Dropbox/tp/rename-me/src/rename-me.py:126
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:140
 msgid "An iterator"
 msgstr ""
 
-#: /home/atareao/Dropbox/tp/rename-me/src/rename-me.py:127
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:142
 msgid "A predefinied function to format numbers"
 msgstr ""
 
-#: /home/atareao/Dropbox/tp/rename-me/src/rename-me.py:136
-msgid "Pattern"
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:155
+msgid "Load files"
 msgstr ""
 
-#: /home/atareao/Dropbox/tp/rename-me/src/rename-me.py:146
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:163
 msgid "Preview"
 msgstr ""
 
-#: /home/atareao/Dropbox/tp/rename-me/src/rename-me.py:153
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:171
+msgid "Rename"
+msgstr ""
+
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:175
+msgid "Pattern"
+msgstr ""
+
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:184
 msgid "Save pattern"
 msgstr ""
 
-#: /home/atareao/Dropbox/tp/rename-me/src/rename-me.py:160
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:192
 msgid "Delete pattern"
 msgstr ""
 
-#: /home/atareao/Dropbox/tp/rename-me/src/rename-me.py:177
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:211
 msgid "Source"
 msgstr ""
 
-#: /home/atareao/Dropbox/tp/rename-me/src/rename-me.py:180
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:215
 msgid "Modified"
 msgstr ""
 
-#: /home/atareao/Dropbox/tp/rename-me/src/rename-me.py:183
-msgid "Rename-me"
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:271
+msgid "Select one or more files to rename"
+msgstr ""
+
+#: /home/lorenzo/Sync/Programacion/Python/nautilus-renamer/src/nautilus-renamer.py:281
+msgid "All files"
 msgstr ""

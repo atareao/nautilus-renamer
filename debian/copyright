@@ -1,5 +1,5 @@
 Format: http://dep.debian.net/deps/dep5
-Upstream-Name: translate-me
+Upstream-Name: nautilus-renamer
 Source: http://www.atareao.es
 
 Files: *

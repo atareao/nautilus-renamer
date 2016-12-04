@@ -1,4 +1,4 @@
-Source: rename-me
+Source: nautilus-renamer
 Section: utils
 Priority: extra
 Maintainer: Lorenzo Carbonell Cerezo <lorenzo.carbonell.cerezo@gmail.com>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 8), python, python-distutils-extra, python-polib
 Standards-Version: 3.9.3
 Homepage: http://www.atareao.es
 
-Package: rename-me
+Package: nautilus-renamer
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends},
 	python3,
@@ -14,4 +14,4 @@ Depends: ${misc:Depends}, ${python:Depends},
 	gir1.2-gtk-3.0,
 	gir1.2-nautilus-3.0,
 	python-nautilus
-Description: An extension to rename files with Nautilus
+Description: An extension to rename files with nautilus
