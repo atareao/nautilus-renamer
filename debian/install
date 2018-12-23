@@ -1,0 +1,2 @@
+src/nautilus-renamer.py /usr/share/nautilus-python/extensions
+data/nautilus-renamer.desktop /usr/share/applications

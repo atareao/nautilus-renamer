@@ -4,7 +4,7 @@
 #
 # Script to replace string in files
 #
-# Copyright (C) 2012 -2016 Lorenzo Carbonell
+# Copyright (C) 2017 -2016 Lorenzo Carbonell
 # lorenzo.carbonell.cerezo@gmail.com
 #
 # This program is free software: you can redistribute it and/or modify
